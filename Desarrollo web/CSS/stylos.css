@@ -1,0 +1,260 @@
+/* Selector de etiqueta*/
+
+body {
+    font-family: 'Source Sans pro', sans-serif;
+    background-color: ;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+.link {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    /* tamaño de la imagen*/
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+    /*margin: top right bottom left;*/
+    /*text-transform: capitalize;
+    text-decoration: dashed;*/
+}
+
+h1 strong {
+    color: #B70E21;
+    /* azul celeste*/
+}
+
+h2{
+    color: #B70E21;
+    text-transform: uppercase;
+    font-family: 'Source Sans pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.hero {
+    height: 300px;
+    background-image: url("C:/CHAMORRO/PLATZI/Frontend/Desarrollo web/Imagenes/chamo.jpg");
+    background-color: #1b2127;
+    /* gris claro*/
+    background-size: 500px 300px;
+    /* alto y ancho d ela imagen*/
+    background-repeat: no-repeat;
+    /* no deja repetir la imagen*/
+    background-position-x: right;
+    /* alinea la imagen a la derecha*/
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio {
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+.project {
+    /*border-top: 10px solid red;
+    border-right: 10px solid red;
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;*/
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* redondear bordes*/
+    /* margenes del borde d el apantalla*/
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-tittle{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-course,
+.project-date,
+.project-url{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.project-descrption{
+    font-size: 15px;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+.project-imagecontainer {
+    width: 500px;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    display: flex;
+    height: inherit;
+}
+
+.flexbox {
+    display: flex;
+    /*flex-direction: column;*/
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid red;
+    flex-shrink: 0;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.menu {
+    height: inherit;
+}
+
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer img{
+    vertical-align: middle;
+}
+
+.event-list{
+    display: flex;
+}
+
+.event-list-title{
+    margin-left: 20px;
+}
+.event{
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #f4fbff;
+
+}
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+    
+
+.event-detail{
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description{
+    text-align: left;
+}
+.event-url{
+    border: 1px solid;
+    padding: 5px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #B70E21;
+}
+
+.contact{
+    background-color: #026fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.social{
+    border: 1px solid red;
+    background-size: 50px 50px;
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border:1px solid  white
+    
+}
+.social-link.twitter{
+   background-image: url("C:/CHAMORRO/PLATZI/Desarrollo web/Imagenes/twitter.png"); 
+}
+
+.social-link.twitter{
+   background-image: url("C:/CHAMORRO/PLATZI/Desarrollo web/Imagenes/twitter.svg"); 
+}
+
+.social-link.twitter{
+   background-image: url("C:/CHAMORRO/PLATZI/Desarrollo web/Imagenes/twitter.svg"); 
+}
+
+.social-link.twitter{
+   background-image: url("C:/CHAMORRO/PLATZI/Desarrollo web/Imagenes/twitter.svg"); 
+}
+
